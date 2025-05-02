@@ -20,4 +20,5 @@ function convertAndDescribe(fahrenheit) {
     const description = describeTemperature(fahrenheit);
          return `The temperature is ${celsius.toFixed(2)}°C, which is considered ${description}`;
 }
-console.log(convertAndDescribe(32)); // The temperature is 0.00°C, which is considered cold!
+const userf = prompt("Enter the temperature in Fahrenheit: ");
+alert(convertAndDescribe(userf)); // The temperature is 0.00°C, which is considered cold!
